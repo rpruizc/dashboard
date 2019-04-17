@@ -67,3 +67,10 @@ gem 'devise'
 # Bootstrap
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
+
+# simple-form
+gem 'simple_form'
+
+
+
+
