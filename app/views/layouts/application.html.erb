@@ -369,9 +369,8 @@
       </div>
       <div class="modal-body">Selecciona "Salir" si deseas terminar tu sesión.</div>
       <div class="modal-footer">
-        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-        <a class="btn btn-primary" href="login.html">Logout</a>
-        <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+        <%= link_to 'Salir', destroy_user_session_path, method: :delete, class: "btn btn-primary" %>
       </div>
     </div>
   </div>
